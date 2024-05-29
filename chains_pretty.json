@@ -9978,6 +9978,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Ramestta Mainnet",
+  "chain": "Ramestta",
+  "icon": "ramestta",
+  "rpc": ["https://blockchain.ramestta.com", "https://blockchain2.ramestta.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rama",
+    "symbol": "RAMA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ramestta.com",
+  "shortName": "RAMA",
+  "chainId": 1370,
+  "networkId": 1370,
+  "explorers": [{
+    "name": "ramascan",
+    "url": "https://ramascan.com",
+    "icon": "ramestta",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Kalar Chain",
   "chain": "KLC",
   "icon": "kalarchain",
@@ -10796,6 +10817,36 @@
     "url": "https://explorer.gaussgang.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "ZKBase Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia-rpc.zkbase.app"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zkbase.org/",
+  "shortName": "zkbase-sepolia",
+  "chainId": 1789,
+  "networkId": 1789,
+  "slip44": 1,
+  "icon": "zkbase",
+  "explorers": [{
+    "name": "ZKbase Block Explorer",
+    "url": "https://sepolia-explorer.zkbase.app",
+    "icon": "zkbase",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://portral.zkbase.app/"
+    }]
+  },
+  "redFlags": ["reusedChainId"]
 }, {
   "name": "Kerleano",
   "title": "Proof of Climate awaReness testnet",
@@ -27397,9 +27448,9 @@
 }, {
   "name": "Taiko Mainnet",
   "chain": "ETH",
-  "status": "incubating",
+  "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.taiko.xyz", "wss://ws.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -27410,7 +27461,11 @@
   "shortName": "tko-mainnet",
   "chainId": 167000,
   "networkId": 167000,
-  "explorers": []
+  "explorers": [{
+    "name": "etherscan",
+    "url": "https://taikoscan.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Taiko (Alpha-2 Testnet)",
   "chain": "ETH",

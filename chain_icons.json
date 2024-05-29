@@ -3287,6 +3287,14 @@
     "format": "png"
   }]
 }, {
+  "name": "zkbase",
+  "icons": [{
+    "url": "ipfs://QmRLtNvkVhC7rRDiLMHLckWbesaSU6sNYhQZgsAM1phTZx",
+    "width": 400,
+    "height": 400,
+    "format": "jpg"
+  }]
+}, {
   "name": "scn",
   "icons": [{
     "url": "ipfs://QmdW7XfRgeyoaHXEvXp8MaVteonankR32CxhL3K5Yc2uQM",
@@ -3841,9 +3849,9 @@
 }, {
   "name": "gravity",
   "icons": [{
-    "url": "ipfs://QmZR15YFtH3EyQp3V7vPkm8PFyevXs2w3y2Trf2k6ikVQL",
-    "width": 480,
-    "height": 480,
+    "url": "ipfs://QmU5XU4S5oaGM5fj8oU1ovhWoXCzGWspwRj2zWRTuJrU4k",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -5444,6 +5452,14 @@
     "url": "ipfs://QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE",
     "width": 159,
     "height": 159,
+    "format": "png"
+  }]
+}, {
+  "name": "ramestta",
+  "icons": [{
+    "url": "ipfs://QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ",
+    "width": 300,
+    "height": 300,
     "format": "png"
   }]
 }, {

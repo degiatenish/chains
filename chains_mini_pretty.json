@@ -6213,6 +6213,19 @@
   "faucets": [],
   "infoURL": "https://www.zakumi.io"
 }, {
+  "name": "Ramestta Mainnet",
+  "chainId": 1370,
+  "shortName": "RAMA",
+  "networkId": 1370,
+  "nativeCurrency": {
+    "name": "Rama",
+    "symbol": "RAMA",
+    "decimals": 18
+  },
+  "rpc": ["https://blockchain.ramestta.com", "https://blockchain2.ramestta.com"],
+  "faucets": [],
+  "infoURL": "https://www.ramestta.com"
+}, {
   "name": "Kalar Chain",
   "chainId": 1379,
   "shortName": "KLC",
@@ -6719,6 +6732,19 @@
   "rpc": ["https://rpc.gaussgang.com"],
   "faucets": [],
   "infoURL": "https://gaussgang.com/"
+}, {
+  "name": "ZKBase Sepolia Testnet",
+  "chainId": 1789,
+  "shortName": "zkbase-sepolia",
+  "networkId": 1789,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.zkbase.app"],
+  "faucets": [],
+  "infoURL": "https://zkbase.org/"
 }, {
   "name": "Kerleano",
   "chainId": 1804,
@@ -16908,7 +16934,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.taiko.xyz", "wss://ws.taiko.xyz"],
+  "rpc": ["https://rpc.mainnet.taiko.xyz", "wss://ws.mainnet.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {

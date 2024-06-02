@@ -1983,6 +1983,14 @@
     "format": "png"
   }]
 }, {
+  "name": "lorenzo",
+  "icons": [{
+    "url": "ipfs://QmcwDCeZpzvRWBwtTgyEFv4tLJk6SFUb26rwsRXyJrhnP7",
+    "width": 288,
+    "height": 288,
+    "format": "png"
+  }]
+}, {
   "name": "human",
   "icons": [{
     "url": "ipfs://QmT5KKrpNt6duU8QfwaYw3xf4ifTBPtjahpWsMi3gsFmcS",
@@ -2068,6 +2076,14 @@
     "url": "ipfs://QmX8qGX7xoZqYUpHxA85uZwQX2fgbTHvmddE1NfseDyBED",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "xpla_verse",
+  "icons": [{
+    "url": "ipfs://QmZvqcTNWPUoT1F3r9DTAMhdjt3zQC8eRUStvUGEF68KCt",
+    "width": 857,
+    "height": 132,
     "format": "png"
   }]
 }, {
@@ -3775,6 +3791,14 @@
     "format": "png"
   }]
 }, {
+  "name": "flag",
+  "icons": [{
+    "url": "ipfs://bafybeibcrxeavdxpwwmj4mc6hhp232nkrfbpvfpngcqux2v5rmoshycj3u",
+    "width": 500,
+    "height": 500,
+    "format": "png"
+  }]
+}, {
   "name": "telcoin",
   "icons": [{
     "url": "ipfs://bafkreih4obvrymfdqohzhiafhvpcy6zwqbgpfm26aahrv3qx2dtcei7hk4",
@@ -4452,6 +4476,14 @@
     "url": "ipfs://QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED",
     "width": 400,
     "height": 400,
+    "format": "png"
+  }]
+}, {
+  "name": "seiv2",
+  "icons": [{
+    "url": "ipfs://bafkreia2tiurhfkc2lifytbpv356d4rfmqoivzrepg2wsrqwrqgbb4bp7a",
+    "width": 600,
+    "height": 600,
     "format": "png"
   }]
 }, {

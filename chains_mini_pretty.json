@@ -1858,6 +1858,19 @@
   "faucets": [],
   "infoURL": "https://soraai.bot"
 }, {
+  "name": "Flag Mainnet",
+  "chainId": 147,
+  "shortName": "FLAG",
+  "networkId": 147,
+  "nativeCurrency": {
+    "name": "Flag",
+    "symbol": "FLAG",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.flagscan.xyz"],
+  "faucets": [],
+  "infoURL": "https://flagscan.xyz"
+}, {
   "name": "ShimmerEVM",
   "chainId": 148,
   "shortName": "shimmerevm",
@@ -1919,7 +1932,7 @@
     "symbol": "RBNT",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://governors.testnet.redbelly.network"],
   "faucets": [],
   "infoURL": "https://redbelly.network"
 }, {
@@ -5693,6 +5706,19 @@
   "faucets": ["https://scan.boka.network/#/Galois/faucet"],
   "infoURL": "https://mathchain.org"
 }, {
+  "name": "Flag Testnet",
+  "chainId": 1147,
+  "shortName": "tFLAG",
+  "networkId": 1147,
+  "nativeCurrency": {
+    "name": "Flag Testnet",
+    "symbol": "FLAG",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.flagscan.xyz"],
+  "faucets": ["https://faucet.flagscan.xyz"],
+  "infoURL": "https://testnet-explorer.flagscan.xyz"
+}, {
   "name": "Symplexia Smart Chain",
   "chainId": 1149,
   "shortName": "Plexchain",
@@ -6135,6 +6161,19 @@
   "faucets": ["https://aia-faucet-testnet.aiachain.org"],
   "infoURL": "https://aiachain.org"
 }, {
+  "name": "Sei Network",
+  "chainId": 1329,
+  "shortName": "sei",
+  "networkId": 1329,
+  "nativeCurrency": {
+    "name": "Sei",
+    "symbol": "SEI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "faucets": [],
+  "infoURL": "https://www.sei.io"
+}, {
   "name": "Geth Testnet",
   "chainId": 1337,
   "shortName": "geth",
@@ -6223,6 +6262,19 @@
     "decimals": 18
   },
   "rpc": ["https://blockchain.ramestta.com", "https://blockchain2.ramestta.com"],
+  "faucets": [],
+  "infoURL": "https://www.ramestta.com"
+}, {
+  "name": "Pingaksha testnet",
+  "chainId": 1377,
+  "shortName": "tRAMA",
+  "networkId": 1377,
+  "nativeCurrency": {
+    "name": "Rama",
+    "symbol": "tRAMA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.ramestta.com"],
   "faucets": [],
   "infoURL": "https://www.ramestta.com"
 }, {
@@ -9329,7 +9381,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.n3.nahmii.io"],
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
@@ -9338,11 +9390,11 @@
   "shortName": "Nahmii3Testnet",
   "networkId": 4062,
   "nativeCurrency": {
-    "name": "Goerli Ether",
+    "name": "Sepolia Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://ngeth.testnet.n3.nahmii.io"],
+  "rpc": ["https://rpc.testnet.nahmii.io"],
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
@@ -10061,6 +10113,19 @@
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
 }, {
+  "name": "Settlus Testnet",
+  "chainId": 5372,
+  "shortName": "settlus-testnet",
+  "networkId": 5372,
+  "nativeCurrency": {
+    "name": "Setl",
+    "symbol": "SETL",
+    "decimals": 18
+  },
+  "rpc": ["https://settlus-test-eth.settlus.io"],
+  "faucets": ["https://faucet.settlus.io"],
+  "infoURL": "https://settlus.org"
+}, {
   "name": "edeXa Mainnet",
   "chainId": 5424,
   "shortName": "edeXa",
@@ -10100,7 +10165,7 @@
   "faucets": ["https://t.me/vexfaucetbot"],
   "infoURL": "https://vexanium.com"
 }, {
-  "name": "Nahmii Mainnet",
+  "name": "Nahmii 2 Mainnet",
   "chainId": 5551,
   "shortName": "Nahmii",
   "networkId": 5551,
@@ -10113,7 +10178,7 @@
   "faucets": [],
   "infoURL": "https://nahmii.io"
 }, {
-  "name": "Nahmii Testnet",
+  "name": "Nahmii 2 Testnet",
   "chainId": 5553,
   "shortName": "NahmiiTestnet",
   "networkId": 5553,
@@ -10410,6 +10475,19 @@
   },
   "rpc": ["https://jsonrpc.euphoria.aura.network"],
   "faucets": ["https://aura.faucetme.pro"],
+  "infoURL": "https://aura.network"
+}, {
+  "name": "Aura Mainnet",
+  "chainId": 6322,
+  "shortName": "aura",
+  "networkId": 6322,
+  "nativeCurrency": {
+    "name": "Aura",
+    "symbol": "AURA",
+    "decimals": 18
+  },
+  "rpc": ["https://jsonrpc.aura.network"],
+  "faucets": [],
   "infoURL": "https://aura.network"
 }, {
   "name": "Digit Soul Smart Chain",
@@ -10723,6 +10801,19 @@
   "rpc": ["https://connect.bit-rock.io", "https://brockrpc.io"],
   "faucets": [],
   "infoURL": "https://bit-rock.io"
+}, {
+  "name": "XPLA Verse",
+  "chainId": 7300,
+  "shortName": "XPLAVERSE",
+  "networkId": 7300,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-xpla-verse.xpla.dev"],
+  "faucets": [],
+  "infoURL": "https://www.xpla.io"
 }, {
   "name": "KLYNTAR",
   "chainId": 7331,
@@ -11321,6 +11412,19 @@
   "rpc": ["https://www.krotho-test.net"],
   "faucets": [],
   "infoURL": "https://www.kortho.io/"
+}, {
+  "name": "Lorenzo",
+  "chainId": 8329,
+  "shortName": "lrz",
+  "networkId": 8329,
+  "nativeCurrency": {
+    "name": "Lorenzo stBTC",
+    "symbol": "stBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.lorenzo-protocol.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.lorenzo-protocol.xyz/"
 }, {
   "name": "Dracones Financial Services",
   "chainId": 8387,
@@ -12465,6 +12569,19 @@
   "rpc": ["https://rpc.shinescan.io"],
   "faucets": [],
   "infoURL": "https://shinechain.tech"
+}, {
+  "name": "Jiritsu Testnet Subnet",
+  "chainId": 11227,
+  "shortName": "jiritsutes",
+  "networkId": 11227,
+  "nativeCurrency": {
+    "name": "JIRI",
+    "symbol": "TZW",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/jiritsutes/testnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://jiritsu.network"
 }, {
   "name": "Haqq Network",
   "chainId": 11235,
@@ -15674,6 +15791,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.geekout-pte.com"],
+  "faucets": [],
+  "infoURL": "https://www.geekout-pte.com"
+}, {
+  "name": "GEEK Verse Testnet",
+  "chainId": 75513,
+  "shortName": "GEEK Test",
+  "networkId": 75513,
+  "nativeCurrency": {
+    "name": "Geek",
+    "symbol": "GEEK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet.geekout-pte.com"],
   "faucets": [],
   "infoURL": "https://www.geekout-pte.com"
 }, {
@@ -19784,6 +19914,19 @@
   "rpc": ["https://toys.joys.cash/"],
   "faucets": ["https://faucet.joys.digital/"],
   "infoURL": "https://joys.digital"
+}, {
+  "name": "Oraichain Mainnet",
+  "chainId": 108160679,
+  "shortName": "Oraichain",
+  "networkId": 108160679,
+  "nativeCurrency": {
+    "name": "Oraichain Token",
+    "symbol": "ORAI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.orai.io"],
+  "faucets": [],
+  "infoURL": "https://orai.io"
 }, {
   "name": "Cyber Testnet",
   "chainId": 111557560,

@@ -1214,7 +1214,7 @@
   "mvm": "eip155:73927",
   "resin": "eip155:75000",
   "GEEK": "eip155:75512",
-  "GEEK Test": "eip155:75513",
+  "GEEK_Test": "eip155:75513",
   "BORAchain": "eip155:77001",
   "fnc": "eip155:77238",
   "vscm": "eip155:77612",

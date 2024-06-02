@@ -15796,7 +15796,7 @@
 }, {
   "name": "GEEK Verse Testnet",
   "chainId": 75513,
-  "shortName": "GEEK Test",
+  "shortName": "GEEK_Test",
   "networkId": 75513,
   "nativeCurrency": {
     "name": "Geek",
